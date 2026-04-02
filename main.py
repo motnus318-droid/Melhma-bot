@@ -7,7 +7,7 @@ from telegram.ext import Application, CommandHandler, CallbackQueryHandler, Mess
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # --- 1. الإعدادات وقواعد البيانات ---
-TOKEN = "8681015207:AAEI4KCFDc6QqPMAC4bflGVu1dx9XvF7oT0" # ضع التوكن هنا
+TOKEN = "8681015207:AAEcmGWSZag_a1PE0wUxD3_2gBoNk3KoWt8" # ضع التوكن هنا
 OWNER_ID = 7083077757 
 
 database = { OWNER_ID: {"username": "@owner", "channel_id": None, "game": None} }
